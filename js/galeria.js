@@ -19,7 +19,7 @@ let pg = {
 OBJETOS CON LOS METODOS DEL SLIDE
 ============================================*/
 
-let mg ={
+let mg = {
 
     inicioGaleria: function(){
            

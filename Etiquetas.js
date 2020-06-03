@@ -32,7 +32,9 @@ target.getAttribute()   /*  ES UNA FUNCIÓN PARA SELECCIONAR CUALQUIER ATRIBUTO 
 eval(p.operaciones.innerHTML)   /*  eval () es una funcion predeterminada de javascript para resolver funciones matematicas de una variable */
 
 
+appendChild             /*  Agrega un nuevo nodo al final de la lista de un elemento hijo de un elemento padre especificado.*/
 
+                        /*  ul.appendChild(li) */
 
 
 // pg.lighbox.style = "width: 100%; height: 100%; position: fixed; zIndex: 10; background: rgba(0,0,0,0.7); top: 0; left: 0;"
