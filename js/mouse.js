@@ -27,7 +27,7 @@ let mm = {
         for (let i = 0; i < pm.figuras.length; i++) {
            
              pm.figuras[i].innerHTML = "<img src='img/mouse/plano0"+i+".png'>"
-             pm.figuras[i].style.zIndex = -i;    
+             pm.figuras[i].style.zIndex = (i-3)*-1;    
             
         }
 

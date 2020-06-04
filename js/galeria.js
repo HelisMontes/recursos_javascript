@@ -9,7 +9,7 @@ let pg = {
     cuerpoDom : document.querySelector("body"),
     lighbox: null,
     modal: null,
-    animacionGaleria: "fade"
+    animacionGaleria: "slideLeft"
 
 
 }

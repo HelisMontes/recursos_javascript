@@ -5,7 +5,7 @@ setAttribute            /*ETIQUETA ES PARA AGREGAR UN ATRIBUTO A UNA ETIQUETA HT
                         /*appendChild(document.createElement("DIV")).setAttribute("id", "lighbox")*/
 
 
-outerHTMl               /*ETIQUETA  ES PARA TREAR EL CONTENIDO HTML Y NO EL OBJETO*/
+outerHTML               /*ETIQUETA  ES PARA TREAR EL CONTENIDO HTML Y NO EL OBJETO*/
 innerHTML               /* Etiqueta para obtener, agregar o remplazar contenido HTML*/
 
                         /*pg.modal.innerHTML = imgRuta.outerHTML+"<div>x</div> ";*/
