@@ -57,9 +57,7 @@ let m ={
 			p.item++;
 
 		}
-
-		console.log(p.item);
-
+	
 		m.movimientoSlide(p.item);
 	},
 
@@ -74,8 +72,6 @@ let m ={
 			p.item--;
 
 		}
-
-		console.log(p.item);
 
 		m.movimientoSlide(p.item);
 

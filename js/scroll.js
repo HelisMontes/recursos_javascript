@@ -52,7 +52,6 @@ let ms= {
         ps.ruta = ruta.target.getAttribute("href");
         ps.destinoScroll = document.querySelector(ps.ruta).offsetTop-ps.padding;
         ps.intervalo = setInterval(function(){
-            
             if (ps.posicionScroll < ps.destinoScroll) {
                 ps.posicionScroll += 100;
                 if (ps.posicionScroll >= ps.destinoScroll) {
