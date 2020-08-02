@@ -133,11 +133,15 @@ let mf = {
     },
     validarFormulario: function(){
         let enviar = true;
-       
+        let terminos = document.querySelector("#terminos").checked
+
+        if (!terminos) {
+            alert("Acepta los terminos y condiciones")
+        }
         pf.entradas.forEach(function callback(e,i){
             (mf.validarCapos(e.id, e.value).length) ? (enviar=false) : null;
         });
-        if(enviar == true){
+        if(enviar == true && terminos== true){
             alert("Datos del formulario enviados")
         }else{
             alert("Hay errores en los Campos")
