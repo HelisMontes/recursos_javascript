@@ -319,7 +319,17 @@ FORMULARIO
 
 #formulario input[type="radio"]:checked + label.radio span{
 	background: url(../img/radio.jpg);
-} 
+}
+
+#formulario button{
+
+	display:block;
+	position:relative;
+	width:100%;
+	padding:10px;
+	font-size: 14px;
+}
+
 /*=============================================
 PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
 =============================================*/
